@@ -1,3 +1,8 @@
+/*Controlled components in React are form elements whose values are controlled by React state. 
+This means that the input values are stored in the component's state, 
+and any changes to the input are handled through state updates. Controlled components provide a way to manage form data in a predictable manner.
+*/
+
 import React, { useState } from 'react';
 
 const ControlledComponent = () => {
