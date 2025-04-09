@@ -1,4 +1,10 @@
- import React, { useState, useRef } from 'react';
+/*
+Uncontrolled components in React are form elements that manage their own state internally rather than relying on React to manage their state. 
+This means that the form data is handled by the DOM itself, and React does not have direct control over the input values.
+*/
+
+
+import React, { useState, useRef } from 'react';
 
 const UncontolledComponent = () => {
   const inputRef = useRef(null);
