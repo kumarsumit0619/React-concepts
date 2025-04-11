@@ -32,6 +32,10 @@ const StyledComponent = () => {
     & label{
       color: #fff;
     }
+
+     @media (max-width: 600px){
+      font-size: 50px;
+    }
   `;
 
   const StyledSubmitbutton = styled.button`
