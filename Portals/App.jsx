@@ -8,7 +8,7 @@ export default function App() {
 
   const showToast = () => {
     setToastMessage('Records updated!!!');
-    setTimeout(() => setToastMessage(null), 300000);
+    setTimeout(() => setToastMessage(null), 3000);
   };
   
   return (
